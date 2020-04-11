@@ -1,26 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {DATE_FIELD, COLUMN_FIELDS} from './dataimport';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default (props: {data: any[]}) => {
+  let cols = [DATE_FIELD, ...COLUMN_FIELDS];
+  return (<div>
+    <table className="table table-striped">
+      <thead>
+        <tr>
+          {cols.map((col) => <th>{col}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {props.data.map((row) => (
+          <tr>
+            {cols.map((col) => (<td>{(row[col] || "")}</td>))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>)
 }
-
-export default App;
