@@ -48,6 +48,33 @@ DERIVED_COLUMNS[STMA_PERC_DELTA] = (row: any, rowPrev: any) => {
     }
 }
 
+export const COUNTY_COLUMNS = [
+    "ALLE",
+    "ANNE",
+    "BALT",
+    "BCITY",
+    "CALV",
+    "CARO",
+    "CARR",
+    "CECI",
+    "CHAR",
+    "DORC",
+    "FRED",
+    "GARR",
+    "HARF",
+    "HOWA",
+    "KENT",
+    "MONT",
+    "PRIN",
+    "QUEE",
+    "SOME",
+    "STMA",
+    "TALB",
+    "WASH",
+    "WICO",
+    "WORC",
+]
+
 
 export const COLUMN_FIELDS = [
     DATE_FIELD,

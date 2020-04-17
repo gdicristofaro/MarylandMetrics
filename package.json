@@ -14,6 +14,7 @@
     "@types/react-dom": "^16.9.0",
     "chart.js": "^2.9.3",
     "convert-array-to-csv": "^1.0.11",
+    "distinct-colors": "^2.1.0",
     "downloadjs": "^1.4.7",
     "gh-pages": "^2.2.0",
     "moment": "^2.24.0",
