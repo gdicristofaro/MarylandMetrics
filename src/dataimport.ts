@@ -103,6 +103,7 @@ export const COLUMN_FIELDS = [
     "PRIN",
     "QUEE",
     "SOME",
+    "STMA",
     "TALB",
     "WASH",
     "WICO",
