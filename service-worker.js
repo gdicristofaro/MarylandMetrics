@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MarylandMetrics/precache-manifest.89bc0b6b90d6382d221c1b1465db294e.js"
+  "/MarylandMetrics/precache-manifest.348c39c1dfa3af9b5f62cfbd8ed15252.js"
 );
 
 self.addEventListener('message', (event) => {
