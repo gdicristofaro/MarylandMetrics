@@ -17,7 +17,7 @@ const percCols = [
 ];
 
 export default (props: {data: any[]}) => {
-  let cols = [DATE_FIELD, ...COLUMN_FIELDS];
+  let cols = COLUMN_FIELDS;
   let rows = props.data;
   return (
     <Paper>
