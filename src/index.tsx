@@ -5,7 +5,6 @@ import App from './App';
 import Error from './Error';
 import * as serviceWorker from './serviceWorker';
 import dataimport from './dataimport';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 dataimport().then(data => {
     ReactDOM.render(
@@ -22,6 +21,7 @@ dataimport().then(data => {
   serviceWorker.unregister();
 })
   .catch((err) => {
+    console.log("ERROR:", err);
     ReactDOM.render(
       <React.StrictMode>
       <Error message={err} />
