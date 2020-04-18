@@ -66,7 +66,7 @@ export default (props: {data: any[]}) => {
   let rows = props.data;
   return (
     <Paper>
-    <TableContainer style={{maxHeight: "calc(95vh - 50px)"}}>
+    <TableContainer style={{maxHeight: "calc(90vh - 50px)"}}>
       <Table stickyHeader aria-label="sticky table" size="small">
         <TableHead>
           <TableRow>
