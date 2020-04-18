@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "997ce0009b79487c7b4dab6b21a814df",
+    "revision": "bff13ac885113dd34142ffc44cae04a2",
     "url": "/MarylandMetrics/index.html"
   },
   {
-    "revision": "b6c801bf438fcf2efb23",
+    "revision": "6f1f8f1d777064daa11e",
     "url": "/MarylandMetrics/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MarylandMetrics/static/js/2.fbde73d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6c801bf438fcf2efb23",
-    "url": "/MarylandMetrics/static/js/main.ea269a55.chunk.js"
+    "revision": "6f1f8f1d777064daa11e",
+    "url": "/MarylandMetrics/static/js/main.58d7c0ee.chunk.js"
   },
   {
     "revision": "0634cb7fb73e33e2c7a3",
