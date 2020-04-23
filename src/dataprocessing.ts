@@ -7,8 +7,7 @@ export const avg = (nums: number[]) => {
 }
 
 export const arrAvg = (nums: number[], window: number = 5) => {
-    const intWindow = Math.floor(window);
-    const range = intWindow;
+    const range = Math.floor(window);
     const below = Math.floor(range / 2);
     const above = range - below;
 
